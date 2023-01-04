@@ -33,7 +33,7 @@
         var typed_strings = $('.typed-text').text();
         var typed = new Typed('.typed-text-output', {
             strings: typed_strings.split(', '),
-            typeSpeed: 50,
+            typeSpeed: 80,
             backSpeed: 20,
             smartBackspace: false,
             loop: true
